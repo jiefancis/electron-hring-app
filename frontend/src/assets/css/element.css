@@ -1,0 +1,138 @@
+@import 'element-plus/dist/index.css';
+
+.el-table__header,
+.el-table__header-wrapper,
+.el-table__header .el-table__cell {
+    background: #3A3A3C !important;
+    color: rgba(235, 235, 245, 0.60);
+    font-size: 11px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 13px;
+    word-wrap: break-word;
+    border: none;
+}
+
+.el-scrollbar__wrap {
+    background: #2e2e2e !important;
+}
+
+.el-table--border .el-table__inner-wrapper:after, .el-table--border:after, .el-table--border:before, .el-table__inner-wrapper:before,
+.el-pager li.is-active,
+.el-table tbody tr:hover > td {
+    background: #2e2e2e !important;
+}
+
+.el-table--enable-row-transition .el-table__body td.el-table__cell,
+.el-table td.el-table__cell, .el-table th.el-table__cell.is-leaf {
+    border: none !important;
+}
+
+td.el-table__cell:hover,
+.el-pager li {
+    background: none !important;
+}
+
+.el-pager li:hover {
+    color: #81FF00 !important;
+}
+
+.el-pager li {
+    color: #fff;
+}
+
+.el-table__body-wrapper .dashboard-table-row-class .el-table__cell {
+    background: #2c2c2e;
+}
+
+.dashboard-record-table-pagination .is-active {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #81FF00;
+    border-radius: 6px;
+    color: #81FF00 !important;
+    transition: 0.3s ease-in-out;
+}
+
+.dashboard-record-table-pagination .el-input__wrapper {
+    background: none;
+    box-shadow: none;
+    color: #fff;
+
+}
+
+.dashboard-record-table-pagination .el-input__inner:focus {
+    box-shadow: 0 0 0 1px #81FF00 inset;
+    border-radius: 6px 6px 6px 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.dashboard-record-table-pagination .el-pagination button {
+    background: none;
+    color: #fff;
+}
+
+.dashboard-login-form .el-input__inner {
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.dashboard-login-form .el-input__wrapper {
+    background: #2c2c2e;
+    box-shadow: var(--in-theme-color);
+}
+
+.dashboard-login-form-company .el-textarea__inner {
+    color: #FFFFFF;
+    background: #2c2c2e;
+    box-shadow: var(--in-theme-color);
+}
+
+.el-input__inner::placeholder {
+    color: rgba(235, 235, 245, 0.30) !important;
+    font-size: 13px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    line-height: 18px;
+    word-wrap: break-word;
+}
+
+.dashboard-login-form-input .el-input-group__append {
+    padding: 0 !important;
+    background: #2c2c2e;
+    box-shadow: var(--in-theme-color);
+}
+
+.el-input-group {
+    overflow: hidden;
+}
+
+.dashboard-login-form .el-textarea__inner {
+    background: #2C2C2E;
+    font-size: 13px;
+    height: 100px;
+    resize: none !important;
+}
+
+.dashboard-login-form .el-textarea__inner::placeholder {
+    color: rgba(235, 235, 245, 0.30);
+    font-size: 13px;
+}
+
+.demo-image__error .image-slot {
+    font-size: 30px;
+}
+
+.demo-image__error .image-slot .el-icon {
+    font-size: 30px;
+}
+
+.demo-image__error .el-image {
+    width: 100%;
+    height: 200px;
+}
+
+.el-table__empty-block {
+    color: #ebebf599 !important;
+    font-size: 12px !important;
+}

@@ -1,0 +1,1 @@
+export const API_ROUTE_RECORD = '/resume/list'
